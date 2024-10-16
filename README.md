@@ -9,7 +9,7 @@ The mass spectrometry proteomics data have been deposited to the PRIDE Archive (
 
 The work was supported by UKRI Future Leaders Fellowship (N.P.) under grant MR/ S032878/1. We also acknowledge the technical support of The Newcastle University Protein and Proteome Analysis (NUPPA) core facility for mass spectrometry analyses.
 
-<div style="width: 60%; height: 60%">
+<div style="width: 20%; height: 20%">
   
 ![TOC](https://github.com/user-attachments/assets/3fef5ae5-7aba-4e0f-816e-e827df8f0e7a)
 
