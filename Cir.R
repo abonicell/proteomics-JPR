@@ -13,7 +13,7 @@ library(ggplot2)
 library(ggthemes)
 
 # load data ---------------------------------------------------------------
-Cir <- read.csv("Cir.csv")
+Cir <- read.csv("/Users/andreabonicelli/Documents/GitHub/proteomics-JPR/data/Cir.csv")
 
 Cir_matrix <- as.matrix(Cir)
 Cir_Var <- subset(Cir[16:19])
@@ -37,7 +37,7 @@ Cir %>%
 
 
 # PCA protein -------------------------------------------------------------
-df <- read_csv("Matrix 75.csv")
+df <- read_csv("/Users/andreabonicelli/Documents/GitHub/proteomics-JPR/data/Matrix 75.csv")
 
 do.call(rbind, lapply(Var, function(x)
   shapiro.test(x)[c("statistic", "p.value")]))
@@ -190,7 +190,7 @@ df %>%
 
 # PTMs --------------------------------------------------------------------
 #PCA
-PTM <- read.csv("PTM.csv")
+PTM <- read.csv("/Users/andreabonicelli/Documents/GitHub/proteomics-JPR/data/PTM.csv")
 
 do.call(rbind, lapply(Var_PTM, function(x)
   shapiro.test(x)[c("statistic", "p.value")]))
